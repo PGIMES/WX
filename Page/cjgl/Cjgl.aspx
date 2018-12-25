@@ -32,7 +32,7 @@
        
      <dt class="menus-title" style="background-color:#008083;height:35px">
          <div  style="float:left;width:49%;border:0px solid #F00;">车间管理</div> 
-         <div style="float:left;width:49%;border:0px solid #000; text-align:right;"><a href="Index.aspx"><img src="img/home.png" width="22px" height="22px" style="text-align:right;"></a></div> 
+         <div style="float:left;width:49%;border:0px solid #000; text-align:right;"><a href="/Page/Index.aspx"><img src="/img/home.png" width="22px" height="22px" style="text-align:right;"></a></div> 
      </dt> 
         
      <dd id="btn1" class="menus-item"  > 

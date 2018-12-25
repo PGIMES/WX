@@ -32,7 +32,7 @@
        
           <dt class="menus-title" style="background-color:#E39E25;height:35px">
          <div  style="float:left;width:49%;border:0px solid #F00;">公共查询</div> 
-         <div style="float:left;width:49%;border:0px solid #000; text-align:right;"><a href="Index.aspx"><img src="img/home.png" width="22px" height="22px" style="text-align:right;"></a></div> 
+         <div style="float:left;width:49%;border:0px solid #000; text-align:right;"><a href="/Page/Index.aspx"><img src="/img/home.png" width="22px" height="22px" style="text-align:right;"></a></div> 
      </dt> 
      <dd id="job51Btn" class="menus-item"  > 
       <a href="javascript:void(0);"> <span class="mi-info logo"></span> <span class="mi-info txt">规章制度</span> <span class="mi-info check txt">进入</span> </a> 
