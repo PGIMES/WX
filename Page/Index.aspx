@@ -16,6 +16,9 @@
 <link href="/css/login.css?v=201802091428" rel="stylesheet" type="text/css">
 <link href="/css/comm.css?v=201802091429" rel="stylesheet" type="text/css">
 <link href="/css/theme.css?v=201805162207" rel="stylesheet" type="text/css">
+
+    <meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 </head>
 <body>
     <form id="form1" runat="server">
