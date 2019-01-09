@@ -32,7 +32,7 @@
      <li id="accountBtn" class="menu"> <a href="/Page/ggcx/ggcx.aspx"> <span class="icons i-menu-account" style="background-color:#E39E25"></span> <span class="txt">公共查询</span> </a> </li> 
      <li id="resumeBtn" class="menu"> <a href="/Page/cjgl/cjgl.aspx"> <span class="icons i-menu-resume" style="background-color:#008083"></span> <span class="txt">车间管理</span> </a> </li> 
      <!-- 开发中 -->  
-     <li id="historyBtn" class="menu"> <a href="javascript:void(0);"> <span class="icons i-menu-history" style="background-color:#cccccc"></span> <span class="txt">开发中</span> </a> </li> 
+     <li id="historyBtn" class="menu"> <a href="/Page/purchase/cgcx.aspx"> <span class="icons i-menu-history" style="background-color:brown"></span> <span class="txt">采购查询</span> </a> </li> 
      <!--开发中--> 
      <li id="deliverHisBtn" class="menu"> <a href="javascript:void(0);"> <span class="icons i-menu-deliver" style="background-color:#cccccc"></span> <span class="txt">开发中</span> </a> </li>  
      <!--开发中--> 
