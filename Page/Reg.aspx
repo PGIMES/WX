@@ -20,6 +20,43 @@
 <link href="/css/comm.css?v=201802091429" rel="stylesheet" type="text/css">
 <link href="/css/theme.css?v=201805162207" rel="stylesheet" type="text/css">
 
+    <script type="text/javascript">
+        $("#registerBtn").click(function () {
+            $.ajax({
+                type: "post", //要用post方式                 
+                url: "Reg.aspx/RegExec",//方法所在页面和方法名
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                data: "{'nameText':'" + $("#nameText").val() + "','emCodeText':'" + $("#emCodeText").val() + "','mobileText':'" + $("#mobileText").val() + "','passwordText':'" + passwordText + "'}",
+                cache: false,
+                async: false,//默认是true，异步；false为同步，此方法执行完在执行下面代码
+                success: function (data) {
+                    var obj = eval("(" + data.d + ")");//将字符串转为json
+                    //var tb = ""; var objname = "";
+                    //for (var i = 0; i < obj.length; i++) {
+                    //    objname = obj[i]["wlmc"].length >= 12 ? obj[i]["wlmc"].substring(0, 12) + "..." : obj[i]["wlmc"];
+                    //    tb = '<div class="list-block">'
+                    //       + '<ul class="list-container">'
+                    //       + '<li class="item-content item-link" id="li_' + obj[i]["id"] + '"><div class="item-inner"><div class="item-title">请购单号</div><div class="item-after"><font color="#0894ec">' + obj[i]["prno"] + '</font></div></div></li>'
+                    //       + '<li class="item-content"><div class="item-inner"><div class="item-title">物料号</div><div class="item-after">' + obj[i]["wlh"] + '</div></div></li>'
+                    //       + '<li class="item-content"><div class="item-inner"><div class="item-title">物料名称</div><div class="item-after">' + objname + '</div></div></li>'
+                    //       + '</ul>'
+                    //       + '</div>';
+                    //    $('#div_list').append(tb);
+                    //    tb = ""; objname = "";
+                    //}
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {//请求失败处理函数
+                    //alert(XMLHttpRequest.status);
+                    //alert(XMLHttpRequest.readyState);
+                    //alert(textStatus);
+                    alert('error...状态文本值：' + textStatus + " 异常信息：" + errorThrown);
+                }
+            });
+        });
+
+    </script>
+
 
     <meta name="layout" content="main"/>
 </head>
